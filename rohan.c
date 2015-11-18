@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
+/*
+* Mind Sumo question #13
+* Author: Daniel Hwang
+* 
+*/
 
 int main() {
 
