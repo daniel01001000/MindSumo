@@ -14,7 +14,7 @@ int main() {
 
 	while (!found) {
 
-		if( is_perfect_sqrt(b+c+d) && is_cubert(a,b,c,d,e) ) {
+		if( is_perfect_sqrt(b,c,d) && is_cubert(a,b,c,d,e) ) {
 			found = 1;
 			printf("a = %i, b = %i, c = %i, d = %i, e = %i\n", a,b,c,d,e);
 		} else {
